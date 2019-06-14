@@ -16,4 +16,5 @@ generator.properties
 .classpath
 logs/
 output/*.zip
+output/*
 
