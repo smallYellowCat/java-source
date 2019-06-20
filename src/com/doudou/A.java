@@ -1,12 +1,7 @@
 package com.doudou;
 
-import com.doudou.jcip.chapter8.ThreadDeadlock;
-import sun.plugin.com.Dispatcher;
-
-import java.lang.Thread.UncaughtExceptionHandler;
-import java.security.PrivilegedAction;
-import java.util.*;
 import java.util.concurrent.*;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class A<T> {
     //Collections
@@ -73,10 +68,21 @@ public class A<T> {
         //Error
 
         //ConcurrentHashMap
+        //ReentrantLock
+
+
+        String s = "";
+        s.intern();
+
+        Thread.interrupted();
+
+
 
         System.out.printf("x455454xx");
+        System.out.print("  ");
 
         //Comparable
+        //CyclicBarrier
 
 
 
