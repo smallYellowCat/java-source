@@ -1,20 +1,31 @@
-hs_err_pid*
-.DS_Store
-.idea/
-.svn/
-*.iml
-*/*.iml
+HELP.md
 target/
-apache-tomcat*
-RemoteSystems*
-.metadata/
-apache-tomcat-8.0.41/
-Server*
-generator.properties
-.settings/
-.project
-.classpath
-logs/
-output/*.zip
-output/*
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
 
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
